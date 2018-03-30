@@ -6,7 +6,12 @@
   "keywords": ["SERPS", "Google"],
   "homepage": "https://github.com/serp-spider/search-engine-google",
   "license": "Fair",
-
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:lukaszmordawski/serps-core.git"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
 
@@ -31,7 +36,7 @@
 
   "require": {
     "php": ">=5.5",
-    "serps/core": "~0.3.0"
+    "serps/core": "dev-master"
   },
 
   "require-dev":{
